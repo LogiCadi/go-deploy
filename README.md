@@ -12,9 +12,9 @@
 
 在当前目录下新建 gd.config.js 配置文件
 
-## 部署上传
+## 上传部署
 
-`gd [dev/demo/...]`
+`gd [dev/beta/prod...]`
 
 根据 `gd.config.js` 中的 `servers` 关键字(keyword)匹配
 
