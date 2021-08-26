@@ -11,6 +11,10 @@
     "go-deploy": "bin/gd",
     "gd": "bin/gd"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LogiCadi/go-deploy.git"
+  },
   "author": "luokai",
   "license": "ISC",
   "dependencies": {
