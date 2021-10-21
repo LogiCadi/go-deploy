@@ -1,6 +1,6 @@
 {
   "name": "go-deploy",
-  "version": "1.2.1",
+  "version": "1.2.4",
   "description": "上传部署工具",
   "keywords": [
     "部署",
@@ -18,7 +18,8 @@
   "author": "luokai",
   "license": "ISC",
   "dependencies": {
-    "ftp-deploy": "^2.4.1",
+    "basic-ftp": "^4.6.6",
+    "dir-fs-utils": "^1.1.2",
     "progress": "^2.0.3"
   }
 }
