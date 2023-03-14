@@ -1,6 +1,6 @@
 # go-deploy
 
-一键上传部署工具，支持多服务器配置
+一键上传部署静态文件工具，支持多服务器配置
 
 ## 安装
 
@@ -8,13 +8,13 @@
 
 ## 生成配置文件
 
-`gd init`
+`gd config`
 
-在当前目录下新建 gd.config.js 配置文件
+修改 gd.config.js 配置文件
 
 ## 上传部署
 
-`gd [dev/beta/prod...]`
+`gd [dev/test/prod...]`
 
 根据 `gd.config.js` 中的 `servers` 关键字(keyword)匹配
 
@@ -29,5 +29,3 @@
 ### 动态参数
 
 `gd dev password=123 remoteRoot=root` 动态设置配置中的参数
-
-`gd dev config=D:/gd.config.js` 指定 config 文件
